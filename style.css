@@ -1,16 +1,19 @@
 body {
   margin: 0;
+  background-image: url("assets/moroccan-flower-dark.png");
 }
 
 header {
   /* background-image: url('assets/moroccan-flower.png'); */
   padding: 1em;
   text-align: center;
+  background-color: white;
 }
 
 nav {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 nav > a {
@@ -25,7 +28,6 @@ nav > a {
 }
 
 .outer-background {
-  background-image: url("assets/moroccan-flower-dark.png");
   display: flex;
   justify-content: center;
 }
