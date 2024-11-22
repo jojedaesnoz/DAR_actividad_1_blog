@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+header {
+  /* background-image: url('assets/moroccan-flower.png'); */
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > a {
+  padding: 0.5em 1em;
+  /* background-color: gray; */
+  /* border-bottom: 1px solid black; */
+  border-radius: 5px;
+}
+
+.nav-selected {
+  font-weight: bold;
+}
+
+.outer-background {
+  background-image: url("assets/moroccan-flower-dark.png");
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1em;
+  margin: 2em 1em;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 1em;
+}
+
+.card-content {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.card-title {
+  margin-top: 0;
+  text-align: center;
+  position: sticky;
+  background-color: white;
+}
+
+.button-bar {
+  text-align: right;
+  padding-top: 0.5em;
+}
